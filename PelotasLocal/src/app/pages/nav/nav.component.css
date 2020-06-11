@@ -1,0 +1,27 @@
+nav{
+    text-align: center;
+    border: 1px solid #000000;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 12px;
+    margin: 12px;
+    color: #ff0000;
+}
+
+.logo{
+    padding: 28px 0;
+}
+
+.logo a{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.links{
+    text-transform: uppercase;
+    padding: 12px;
+}
