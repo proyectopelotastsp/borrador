@@ -1,12 +1,19 @@
-<nav>
-    <div class="logo">
-        <a href="">EnPelotas<sub>.com</sub></a>
-    </div>
-    <div class="links">
-        <a href="">Futbol</a>
-        <a href="">Futbol Sala</a>
-        <a href="">Baloncesto</a>
-        <a href="">Tennis</a>
-        <a href="">Voleibol</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand tituloLogo" href="#">
+        <img width="30" height="30" alt="logo" [src]="logo"/>
+        EnPelotas<sub>.com</sub></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Futbol</a>
+              <a class="nav-link" href="#">Futbol Sala</a>
+              <a class="nav-link" href="#">Baloncesto</a>
+              <a class="nav-link" href="#">Tennis</a>
+              <a class="nav-link" href="#">Voleibol</a>
+            </li>
+      </ul>
     </div>
 </nav>
