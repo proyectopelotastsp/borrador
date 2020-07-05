@@ -1,19 +1,15 @@
 nav{
     text-align: center;
-    border: 1px solid #1217ad;
-    font-family: arial rgb(211, 31, 31);
-    border: 0px;
+    border: 1px solid #000000;
     
 }
 
 a{
     text-decoration: none;
-    font-size: 34px;
+    font-size: 24px;
     padding: 0px 12px;
     margin: 12px;
-    color:black;
-    border-left-color:red;
-    
+    color: #0e0d0d;
 }
 
 .logo{
@@ -21,7 +17,7 @@ a{
 }
 
 .logo a{
-    font-size: 80px;
+    font-size: 32px;
     font-weight: bold;
 }
 
